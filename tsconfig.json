@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "importHelpers": true,
+    "typeRoots": ["node_modules/@types"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "app.ts",
+    "src/**/*",
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
